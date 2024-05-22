@@ -1,0 +1,11 @@
+# .gitignore
+
+# Ignorar arquivos de credenciais
+credentials.tfvars
+
+# Outros regras.gitignore
+*.tfstate
+*.tfstate.*
+*.log
+.terraform/
+.terraform.lock.hcl
