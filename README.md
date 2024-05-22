@@ -146,16 +146,16 @@ Adicione o arquivo credentials.tfvars ao .gitignore para garantir que ele não s
 
 terraform apply -var-file="terraform.tfvars" -var-file="credentials.tfvars"
 
-![alt text](image.png)
+
 
 Insira "yes" para prosseguir com o provisionamento dos recursos.
 
-![alt text](image-1.png)
+
 
 Ao final, será exibida a tela abaixo:
 
 
-### Visualizçao dos recursos no Azure
+### Visualização dos recursos no Azure
 
 Você será capaz de verificar os recursos dentro do portal.azure.com após o provisionamento via terraform.
 
