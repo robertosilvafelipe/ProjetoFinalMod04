@@ -84,3 +84,58 @@ subscription_id = "YOUR_SUBSCRIPTION_ID"
 
 # Passos para Execução
 
+Dentro do diretório principal do projeto.
+
+1. Inicialização do Terraform
+
+terraform init
+
+2. Validação da Configuração
+
+terraform validate
+
+3. Seleção do Workspace de Desenvolvimento
+
+terraform workspace select dev
+
+4. Aplicação da Configuração
+
+terraform apply -var-file="terraform.tfvars" -var-file="credentials.tfvars"
+
+
+
+# EXTRA
+
+## Criação do Service Principal para Terraform no Azure
+
+### Passo 1: Criação do Service Principal
+
+az ad sp create-for-rbac --name "terraform-sp" --role="Contributor" --scopes="/subscriptions/YOUR_SUBSCRIPTION_ID"
+
+### Exemplo de Saída do Comando:
+
+```json
+{
+  "appId": "YOUR_CLIENT_ID",
+  "displayName": "terraform-sp",
+  "name": "http://terraform-sp",
+  "password": "YOUR_CLIENT_SECRET",
+  "tenant": "YOUR_TENANT_ID"
+}
+```
+appId: O ID do cliente (client_id).
+password: A senha (client_secret).
+tenant: O ID do tenant (tenant_id).
+
+### Passo 2: Configuração do Arquivo credentials.tfvars
+Após criar o Service Principal, adicione as credenciais obtidas ao arquivo credentials.tfvars.
+
+```hcl
+client_id       = "YOUR_CLIENT_ID"
+client_secret   = "YOUR_CLIENT_SECRET"
+tenant_id       = "YOUR_TENANT_ID"
+subscription_id = "YOUR_SUBSCRIPTION_ID"
+```
+
+### Passo 3: Atualização do .gitignore
+Adicione o arquivo credentials.tfvars ao .gitignore para garantir que ele não seja incluído no controle de versão, protegendo suas credenciais sensíveis.
