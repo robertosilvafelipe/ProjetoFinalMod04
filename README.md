@@ -17,7 +17,7 @@ Todos os módulos possuem a mesma estrutura de arquivos:
 main.tf, output.tf e variables.tf
 
 
-``bash
+```hcl
 Modules/
 ├── ACR/
 ├── AKS/
@@ -36,7 +36,7 @@ backend.tf
 main.tf
 terraform.tfvars
 variables.tf
-``
+```
 
 ## Conceitos Utilizados
 
