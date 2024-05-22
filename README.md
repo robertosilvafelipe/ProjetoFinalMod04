@@ -161,4 +161,10 @@ Ao final, será exibida a tela abaixo:
 
 Você será capaz de verificar os recursos dentro do portal.azure.com após o provisionamento via terraform.
 
+<<<<<<< HEAD
 ![image](https://github.com/robertosilvafelipe/ProjetoFinalMod04/assets/101230256/5b6b2913-3d88-46e5-a6db-35f24b6b4fea)
+=======
+![image](https://github.com/robertosilvafelipe/ProjetoFinalMod04/assets/101230256/5b6b2913-3d88-46e5-a6db-35f24b6b4fea)
+
+
+>>>>>>> e16822e5823a5d358825e896a790877b2efb6bde
