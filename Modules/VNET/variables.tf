@@ -1,4 +1,3 @@
-# modules/vnet/variables.tf
 variable "vnet_name" {
   description = "O nome da rede virtual (VNET)"
   type        = string

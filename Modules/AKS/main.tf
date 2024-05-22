@@ -8,7 +8,6 @@
 #https://medium.com/@adilsonbna/creating-aks-cluster-in-5min-using-terraform-63841d1e8912
 
 
-# modules/aks/main.tf
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = var.cluster_name
   location            = var.location

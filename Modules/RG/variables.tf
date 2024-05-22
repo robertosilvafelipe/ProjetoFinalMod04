@@ -1,4 +1,3 @@
-# modules/rg/variables.tf
 variable "resource_group_name" {
   description = "O nome do grupo de recursos"
   type        = string

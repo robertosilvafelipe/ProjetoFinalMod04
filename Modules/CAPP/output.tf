@@ -1,4 +1,3 @@
-# modules/container_app/outputs.tf
 output "container_app_id" {
   description = "ID do Container App"
   value       = azurerm_container_app.nginx.id

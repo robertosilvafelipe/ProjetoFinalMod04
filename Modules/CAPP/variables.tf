@@ -1,4 +1,3 @@
-# modules/container_app/variables.tf
 variable "environment_name" {
   description = "Nome do ambiente do Container App"
   type        = string

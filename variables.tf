@@ -1,4 +1,3 @@
-# variables.tf
 variable "client_id" {
   description = "ID do cliente (appId) para o Service Principal"
   type        = string

@@ -1,6 +1,5 @@
 ##https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/container_registry
 
-#modules/acr/main.tf
 resource "random_string" "acr_suffix" {
   length  = 3
   special = false

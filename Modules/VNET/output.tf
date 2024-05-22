@@ -1,4 +1,3 @@
-# modules/vnet/outputs.tf
 output "vnet_id" {
   description = "ID da VNET"
   value       = azurerm_virtual_network.vnet.id

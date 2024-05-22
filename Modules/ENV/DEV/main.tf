@@ -1,4 +1,3 @@
-# env/dev/main.tf
 provider "azurerm" {
   features {
     client_id       = var.client_id

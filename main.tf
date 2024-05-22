@@ -1,4 +1,3 @@
-# main.tf
 provider "azurerm" {
   features {}
 
@@ -67,7 +66,7 @@ module "container_app" {
   location                   = var.location
   resource_group_name        = module.resource_group.resource_group_name
   log_analytics_workspace_id = module.log_analytics_workspace.log_analytics_workspace_id
-  infrastructure_subnet_id   = module.subnet.subnet_ids[0] # Referencia a primeira sub
+  infrastructure_subnet_id   = module.subnet.subnet_ids[3] # Referencia a primeira sub
   app_name                   = var.app_name
   tags                       = var.tags
 }

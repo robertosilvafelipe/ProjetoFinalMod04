@@ -1,4 +1,3 @@
-# modules/snet/main.tf
 resource "azurerm_subnet" "subnet" {
   count                = length(var.subnets)
   name                 = var.subnets[count.index].name

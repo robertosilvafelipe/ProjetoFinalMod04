@@ -1,4 +1,4 @@
-# modules/aks/variables.tf
+
 variable "cluster_name" {
   description = "Nome do cluster Kubernetes"
   type        = string

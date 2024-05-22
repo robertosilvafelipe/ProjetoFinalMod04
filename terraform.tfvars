@@ -1,4 +1,3 @@
-# terraform.tfvars
 resource_group_name = "rg-aks-dev"
 location            = "East US"
 tags = {
@@ -37,6 +36,5 @@ default_node_pool_node_count = 1
 default_node_pool_vm_size    = "Standard_B2s"
 environment_name             = "container-app-env-dev"
 app_name                     = "nginx-container-app"
-infrastructure_subnet_id     = "sub-aks"
-
+infrastructure_subnet_id     = "sub-capp"
 

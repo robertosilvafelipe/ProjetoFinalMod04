@@ -1,4 +1,3 @@
-# modules/acr/variables.tf
 variable "acr_name" {
   description = "Nome do Azure Container Registry"
   type        = string

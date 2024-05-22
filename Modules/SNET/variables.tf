@@ -1,4 +1,3 @@
-# modules/snet/variables.tf
 variable "resource_group_name" {
   description = "O nome do grupo de recursos onde a subnet será criada"
   type        = string

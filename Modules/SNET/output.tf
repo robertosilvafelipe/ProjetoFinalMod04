@@ -1,4 +1,3 @@
-# modules/snet/outputs.tf
 output "subnet_ids" {
   description = "Os IDs das subnets"
   value       = [for s in azurerm_subnet.subnet : s.id]

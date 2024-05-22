@@ -1,4 +1,3 @@
-# backend.tf
 //Backend e Workspace:
 ##Utilizando aqui o Storage Account configurado abaixo para guardar o state do terraform. Ele cria ou um container e um arquivo chamado
 #tfstate para armazenar os dados de estado do terraform. 

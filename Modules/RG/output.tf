@@ -1,4 +1,3 @@
-# modules/rg/outputs.tf
 output "resource_group_name" {
   description = "O nome do grupo de recursos"
   value       = azurerm_resource_group.rg.name
