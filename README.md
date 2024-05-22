@@ -143,4 +143,3 @@ Adicione o arquivo credentials.tfvars ao .gitignore para garantir que ele não s
 
 # Recursos Criados na Azure 
 
-< Add fotos aquis >
