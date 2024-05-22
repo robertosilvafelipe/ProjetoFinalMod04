@@ -141,6 +141,6 @@ subscription_id = "YOUR_SUBSCRIPTION_ID"
 Adicione o arquivo credentials.tfvars ao .gitignore para garantir que ele não seja incluído no controle de versão, protegendo suas credenciais sensíveis.
 
 
-#Recursos Criados na Azure 
+# Recursos Criados na Azure 
 
-<<Add fotos aquis >>
+< Add fotos aquis >
