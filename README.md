@@ -88,15 +88,15 @@ Dentro do diretório principal do projeto.
 
 1. Inicialização do Terraform
 
-terraform init
+`terraform init`
 
 2. Validação da Configuração
 
-terraform validate
+`terraform validate`
 
 3. Seleção do Workspace de Desenvolvimento
 
-terraform workspace select dev
+`terraform workspace select dev`
 
 4. Aplicação da Configuração
 
