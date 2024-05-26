@@ -164,3 +164,10 @@ Você será capaz de verificar os recursos dentro do portal.azure.com após o pr
 ![image](https://github.com/robertosilvafelipe/ProjetoFinalMod04/assets/101230256/5b6b2913-3d88-46e5-a6db-35f24b6b4fea)
 =======
 ![image](https://github.com/robertosilvafelipe/ProjetoFinalMod04/assets/101230256/5b6b2913-3d88-46e5-a6db-35f24b6b4fea)
+
+
+# Acessando sua Aplicação 
+
+Basta colocar o FQDN do Container Apps no navegador e sua aplicação estará aberta.
+
+
