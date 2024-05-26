@@ -71,3 +71,24 @@ module "container_app" {
   tags                       = var.tags
 }
 
+module "nsg" {
+  source              = "./modules/nsg"
+  nsg_name            = "vm-nsg"
+  location            = var.location
+  resource_group_name = module.resource_group.resource_group_name
+  subnet_id           = module.subnet.subnet_ids[3]
+  tags                = var.tags
+}
+
+module "vm" {
+  source              = "./modules/vm"
+  vm_name             = "vm-aks-access"
+  location            = var.location
+  resource_group_name = module.resource_group.resource_group_name
+  subnet_id           = module.subnet.subnet_ids[3]
+  vm_size             = "Standard_B2ms"
+  admin_username      = "adminuser"
+  admin_password      = var.admin_password
+  tags                = var.tags
+  tenant_id           = var.tenant_id
+}

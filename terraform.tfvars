@@ -37,4 +37,4 @@ default_node_pool_vm_size    = "Standard_B2s"
 environment_name             = "container-app-env-dev"
 app_name                     = "nginx-container-app"
 infrastructure_subnet_id     = "sub-capp"
-
+admin_password               = "IkkiFalcon02"

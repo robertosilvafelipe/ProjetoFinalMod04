@@ -106,3 +106,9 @@ variable "infrastructure_subnet_id" {
   description = "ID da Subnet para a infraestrutura"
   type        = string
 }
+
+variable "admin_password" {
+  description = "Senha do administrador para a VM"
+  type        = string
+  sensitive   = true
+}
